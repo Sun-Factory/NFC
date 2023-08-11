@@ -1,0 +1,123 @@
+/* Reset de estilos para garantir consistência em diferentes navegadores */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background-color: #003cff;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+p, h1, h2, h3, h4, h5, h6, ul {
+    margin-bottom: 20px; /* Ajuste o valor para o espaçamento desejado */
+  }
+h1 {
+    background-color: #ffc400;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+h2 {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 0;
+    text-align: left;
+}
+
+h3 {
+    color: rgb(80, 119, 68);
+    padding: 10px 0;
+    text-align: left;
+}
+h4 {
+    color: rgb(231, 152, 152);
+    padding: 10px 0;
+    text-align: left;
+}
+h5 {
+    color: rgb(255, 255, 255);
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+.lang {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Estilo para destacar a linguagem selecionada */
+.lang.active {
+    color: rgb(255, 196, 0);
+}
+
+/* Estilo para as bandeiras */
+.lang img {
+    width: 30px;
+    height: auto;
+}
+
+/* Resto do seu estilo... */
+/* Resto do seu estilo... */
+
+.logo img {
+    width: 80px; /* Ajuste o tamanho do ícone conforme necessário */
+}
+
+language-selector {
+    text-align: center;
+  }
+
+  ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  .compativel {
+    color: rgb(72, 109, 72);
+  }
+  .incompativel {
+    color: rgb(240, 162, 162);
+  }
+
+  footer {
+    background-color: #ffc400;
+    padding: 20px 0;
+    text-align: left;
+    color: #f5f5f5;
+  }
+img {
+    width: 50px;
+    height: auto;
+}
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  .social-icon {
+    font-size: 24px;
+    margin: 0 10px;
+  }
+  h5 {
+text-align: left;
+  }
